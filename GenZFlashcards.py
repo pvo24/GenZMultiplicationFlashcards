@@ -3,8 +3,8 @@ from datetime import datetime
 
 
 greeting_messages = ['Hi!']
-right_answer_messages = ['Freaking awesome!  You got it right, I knew you could do it!!!']
-wrong_answer_messages = ['Oops! Either you got the wrong answer, or Daddy didn\'t code this right! Let\'s try another one...']
+right_answer_messages = ['That's correct! I knew you could do it!']
+wrong_answer_messages = ['That's incorrect. You'll get it next time. Let\'s try another one...']
 
 level1_base = [0, 1, 2, 5, 10]
 level2_base = [0, 1, 2, 4, 5, 10, 11]
@@ -12,7 +12,7 @@ level3_base = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 common_numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 
 print('\n\n')
-name = input('Hello, thanks for wanting to play Daddy\'s super amazing multiplication game!!!\n\nPlease type your name:\t')
+name = input('Hello, welcome to the GenZ Multiplication flashcard game!\n\nPlease type your name so we can get to know each other:\t')
 # name = 'maddie'
 
 if str.lower(name) == 'maddie':
@@ -35,7 +35,7 @@ while keep_playing == str.lower('y'):
 	# level = 1
 	if int(level) == 1:
 		print('OK, ' + str.title(name) + ', let\'s get started on Level ' + str(level) + '.\n')
-		print('10 problems coming your way, let\'s get started!!!')
+		print('10 problems coming your way, let\'s get started!')
 		# try:
 		start = datetime.now()
 		starttime = start.strftime('%Y-%m-%d, %H:%M:%S')
@@ -74,7 +74,7 @@ while keep_playing == str.lower('y'):
 		keep_playing = input('Do you want to play again? (Type y or n and then press enter)')
 	elif int(level) == 2:
 		print('OK, ' + str.title(name) + ', let\'s get started on Level ' + str(level) + '.\n')
-		print('10 problems coming your way, let\'s get started!!!')
+		print('10 problems coming your way, let\'s get started!')
 		# try:
 		start = datetime.now()
 		starttime = start.strftime('%Y-%m-%d, %H:%M:%S')
@@ -120,7 +120,7 @@ while keep_playing == str.lower('y'):
 
 	elif int(level) == 3:
 		print('OK, ' + str.title(name) + ', let\'s get started on Level ' + str(level) + '.\n')
-		print('10 problems coming your way, let\'s get started!!!')
+		print('10 problems coming your way, let\'s get started!')
 		# try:
 		start = datetime.now()
 		starttime = start.strftime('%Y-%m-%d, %H:%M:%S')
@@ -163,4 +163,5 @@ while keep_playing == str.lower('y'):
 		print("\n\nI'm sorry, I know I'm just a computer, but I don't think you typed a 1, 2, or 3.")
 		print("\nPlease try again")
 	
-print('Thanks for playing!!!  Goodbye!')
+print('Thank you so much for playing!  Goodbye!')
+
