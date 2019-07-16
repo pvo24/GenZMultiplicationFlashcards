@@ -13,3 +13,5 @@ We want to help improve their options by creating this program.
 * describe the amount of answers correct and incorrect
 
 * provide the time it took the student to complete
+
+* ending message of congratulatory upon completion
