@@ -7,10 +7,10 @@ ___
 
 - [X] Task 1 - Set up and type description of software for README **(Allison)**
 - [X] Task 2 - Create a file entitled Project Road Map **(Allison)**
-  - [ ] 1 - Create and assign tasks **(Allison & Paris)**
+  - [ ] 1 - Create and assign tasks **(Paris)**
   - [ ] 2 - Mark each task for completion along the way **(Allison & Paris)**
 - [ ] Task 3 - Find existing examples of similar repository(s) **(Allison)**
-- [X] Task 4 - CLone existing respository code to team **(Allison)**
+- [X] Task 4 - Clone existing respository code to team **(Allison)**
 - [ ] Task 5 - Evaluate the existing repository clone **(Allison & Paris)**
 - [ ] Task 6 - Edit/Customize greeting tool for the software
 - [ ] Task 7 - Add comments as necessary to changes made in cloned repository
